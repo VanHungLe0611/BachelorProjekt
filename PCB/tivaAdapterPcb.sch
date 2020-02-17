@@ -2747,9 +2747,9 @@
 <attribute name="NAME" x="136.195" y="82.95" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="138.34" y="73.29" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="ARRAY_SENSOR" gate="A" x="28.01" y="12.17" smashed="yes" rot="R90">
-<attribute name="NAME" x="4.665" y="2.61" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="55.95" y="5.82" size="1.778" layer="96" rot="R90"/>
+<instance part="ARRAY_SENSOR" gate="A" x="43.37" y="12.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="52.93" y="-10.745" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="49.72" y="40.54" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LCD" gate="A" x="102.44" y="18.77" smashed="yes">
 <attribute name="NAME" x="96.09" y="44.805" size="1.778" layer="95"/>
@@ -2760,11 +2760,6 @@
 </busses>
 <nets>
 <net name="5V" class="0">
-<segment>
-<pinref part="TIVA1" gate="A" pin="1"/>
-<wire x1="9.05" y1="77.1" x2="9.05" y2="67.05" width="0.1524" layer="91"/>
-<label x="9.08" y="68.79" size="1.9304" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="TIVA2" gate="G$1" pin="38"/>
 <wire x1="133.26" y1="84.72" x2="133.26" y2="94.15" width="0.1524" layer="91"/>
@@ -2809,13 +2804,13 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="20"/>
-<wire x1="30.55" y1="17.25" x2="30.55" y2="26.68" width="0.1524" layer="91"/>
-<label x="30.43" y="22.07" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="15.14" x2="28.86" y2="15.14" width="0.1524" layer="91"/>
+<label x="33.47" y="15.02" size="1.9304" layer="95" rot="R180"/>
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="17"/>
-<wire x1="28.01" y1="9.63" x2="28.01" y2="0.2" width="0.1524" layer="91"/>
-<label x="28.28" y="-0.9" size="1.9304" layer="95" rot="R90"/>
+<wire x1="45.91" y1="12.6" x2="55.34" y2="12.6" width="0.1524" layer="91"/>
+<label x="56.44" y="12.87" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PA2" class="0">
@@ -2910,8 +2905,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="2"/>
-<wire x1="7.69" y1="17.25" x2="7.69" y2="26.68" width="0.1524" layer="91"/>
-<label x="8" y="22.76" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="-7.72" x2="28.86" y2="-7.72" width="0.1524" layer="91"/>
+<label x="32.78" y="-7.41" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PC7" class="0">
@@ -2929,8 +2924,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="4"/>
-<wire x1="10.23" y1="17.25" x2="10.23" y2="26.68" width="0.1524" layer="91"/>
-<label x="10.44" y="22.66" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="-5.18" x2="28.86" y2="-5.18" width="0.1524" layer="91"/>
+<label x="32.88" y="-4.97" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PC6" class="0">
@@ -2948,8 +2943,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="6"/>
-<wire x1="12.77" y1="17.25" x2="12.77" y2="26.68" width="0.1524" layer="91"/>
-<label x="12.88" y="22.46" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="-2.64" x2="28.86" y2="-2.64" width="0.1524" layer="91"/>
+<label x="33.08" y="-2.53" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PC5" class="0">
@@ -2967,8 +2962,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="8"/>
-<wire x1="15.31" y1="17.25" x2="15.31" y2="26.68" width="0.1524" layer="91"/>
-<label x="15.7" y="22.66" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="-0.1" x2="28.86" y2="-0.1" width="0.1524" layer="91"/>
+<label x="32.88" y="0.29" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PC4" class="0">
@@ -2986,8 +2981,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="10"/>
-<wire x1="17.85" y1="17.25" x2="17.85" y2="26.68" width="0.1524" layer="91"/>
-<label x="18.14" y="22.56" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="2.44" x2="28.86" y2="2.44" width="0.1524" layer="91"/>
+<label x="32.98" y="2.73" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PA6" class="0">
@@ -3005,8 +3000,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="12"/>
-<wire x1="20.39" y1="17.25" x2="20.39" y2="26.68" width="0.1524" layer="91"/>
-<label x="20.58" y="22.36" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="4.98" x2="28.86" y2="4.98" width="0.1524" layer="91"/>
+<label x="33.18" y="5.17" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PA7" class="0">
@@ -3024,8 +3019,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="14"/>
-<wire x1="22.93" y1="17.25" x2="22.93" y2="26.68" width="0.1524" layer="91"/>
-<label x="22.92" y="22.36" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="7.52" x2="28.86" y2="7.52" width="0.1524" layer="91"/>
+<label x="33.18" y="7.51" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PG1" class="0">
@@ -3043,8 +3038,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="16"/>
-<wire x1="25.47" y1="17.25" x2="25.47" y2="26.68" width="0.1524" layer="91"/>
-<label x="25.56" y="22.36" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="10.06" x2="28.86" y2="10.06" width="0.1524" layer="91"/>
+<label x="33.18" y="10.15" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PG0" class="0">
@@ -3062,8 +3057,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="18"/>
-<wire x1="28.01" y1="17.25" x2="28.01" y2="26.68" width="0.1524" layer="91"/>
-<label x="28.09" y="21.88" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="12.6" x2="28.86" y2="12.6" width="0.1524" layer="91"/>
+<label x="33.66" y="12.68" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PM3" class="0">
@@ -3086,8 +3081,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="22"/>
-<wire x1="33.09" y1="17.25" x2="33.09" y2="26.68" width="0.1524" layer="91"/>
-<label x="33.5" y="22.36" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="17.68" x2="28.86" y2="17.68" width="0.1524" layer="91"/>
+<label x="33.18" y="18.09" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PM2" class="0">
@@ -3110,8 +3105,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="24"/>
-<wire x1="35.63" y1="17.25" x2="35.63" y2="26.68" width="0.1524" layer="91"/>
-<label x="35.92" y="21.87" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="20.22" x2="28.86" y2="20.22" width="0.1524" layer="91"/>
+<label x="33.67" y="20.51" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PM1" class="0">
@@ -3134,8 +3129,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="26"/>
-<wire x1="38.17" y1="17.25" x2="38.17" y2="26.68" width="0.1524" layer="91"/>
-<label x="38.16" y="22.16" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="22.76" x2="28.86" y2="22.76" width="0.1524" layer="91"/>
+<label x="33.38" y="22.75" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PM0" class="0">
@@ -3158,8 +3153,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="28"/>
-<wire x1="40.71" y1="17.25" x2="40.71" y2="26.68" width="0.1524" layer="91"/>
-<label x="40.78" y="21.68" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="25.3" x2="28.86" y2="25.3" width="0.1524" layer="91"/>
+<label x="33.86" y="25.37" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PL0" class="0">
@@ -3182,8 +3177,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="30"/>
-<wire x1="43.25" y1="17.25" x2="43.25" y2="26.68" width="0.1524" layer="91"/>
-<label x="43.4" y="21.78" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="27.84" x2="28.86" y2="27.84" width="0.1524" layer="91"/>
+<label x="33.76" y="27.99" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PL1" class="0">
@@ -3206,8 +3201,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="32"/>
-<wire x1="45.79" y1="17.25" x2="45.79" y2="26.68" width="0.1524" layer="91"/>
-<label x="46.02" y="21.97" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="30.38" x2="28.86" y2="30.38" width="0.1524" layer="91"/>
+<label x="33.57" y="30.61" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PL2" class="0">
@@ -3230,8 +3225,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="34"/>
-<wire x1="48.33" y1="17.25" x2="48.33" y2="26.68" width="0.1524" layer="91"/>
-<label x="48.45" y="21.97" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="32.92" x2="28.86" y2="32.92" width="0.1524" layer="91"/>
+<label x="33.57" y="33.04" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PL3" class="0">
@@ -3254,8 +3249,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="36"/>
-<wire x1="50.87" y1="17.25" x2="50.87" y2="26.68" width="0.1524" layer="91"/>
-<label x="51.17" y="22.07" size="1.9304" layer="95" rot="R90"/>
+<wire x1="38.29" y1="35.46" x2="28.86" y2="35.46" width="0.1524" layer="91"/>
+<label x="33.47" y="35.76" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PQ0" class="0">
@@ -3343,8 +3338,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="11"/>
-<wire x1="20.39" y1="9.63" x2="20.39" y2="0.2" width="0.1524" layer="91"/>
-<label x="20.31" y="-0.5" size="1.9304" layer="95" rot="R90"/>
+<wire x1="45.91" y1="4.98" x2="55.34" y2="4.98" width="0.1524" layer="91"/>
+<label x="56.04" y="4.9" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PL4" class="0">
@@ -3367,8 +3362,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="13"/>
-<wire x1="22.93" y1="9.63" x2="22.93" y2="0.2" width="0.1524" layer="91"/>
-<label x="23.1" y="-0.3" size="1.9304" layer="95" rot="R90"/>
+<wire x1="45.91" y1="7.52" x2="55.34" y2="7.52" width="0.1524" layer="91"/>
+<label x="55.84" y="7.69" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PB2" class="0">
@@ -3386,8 +3381,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="15"/>
-<wire x1="25.47" y1="9.63" x2="25.47" y2="0.2" width="0.1524" layer="91"/>
-<label x="25.69" y="-0.3" size="1.9304" layer="95" rot="R90"/>
+<wire x1="45.91" y1="10.06" x2="55.34" y2="10.06" width="0.1524" layer="91"/>
+<label x="55.84" y="10.28" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PB3" class="0">
@@ -3405,8 +3400,8 @@
 </segment>
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="19"/>
-<wire x1="30.55" y1="9.63" x2="30.55" y2="0.2" width="0.1524" layer="91"/>
-<label x="30.86" y="-0.4" size="1.9304" layer="95" rot="R90"/>
+<wire x1="45.91" y1="15.14" x2="55.34" y2="15.14" width="0.1524" layer="91"/>
+<label x="55.94" y="15.45" size="1.9304" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="PP2" class="0">
@@ -3614,11 +3609,6 @@
 <wire x1="133.26" y1="77.1" x2="133.26" y2="67.67" width="0.1524" layer="91"/>
 <label x="133.52" y="66.96" size="1.9304" layer="95" rot="R90"/>
 </segment>
-<segment>
-<pinref part="TIVA1" gate="A" pin="2"/>
-<wire x1="9.05" y1="84.72" x2="9.05" y2="94.15" width="0.1524" layer="91"/>
-<label x="9.08" y="90.35" size="1.9304" layer="95" rot="R90"/>
-</segment>
 </net>
 <net name="PQ4" class="0">
 <segment>
@@ -3637,79 +3627,79 @@
 <net name="N$1" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="1"/>
-<wire x1="7.69" y1="9.63" x2="7.69" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="-7.72" x2="55.34" y2="-7.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="3"/>
-<wire x1="10.23" y1="9.63" x2="10.23" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="-5.18" x2="55.34" y2="-5.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="5"/>
-<wire x1="12.77" y1="9.63" x2="12.77" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="-2.64" x2="55.34" y2="-2.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="7"/>
-<wire x1="15.31" y1="9.63" x2="15.31" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="-0.1" x2="55.34" y2="-0.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="9"/>
-<wire x1="17.85" y1="9.63" x2="17.85" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="2.44" x2="55.34" y2="2.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="21"/>
-<wire x1="33.09" y1="9.63" x2="33.09" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="17.68" x2="55.34" y2="17.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="23"/>
-<wire x1="35.63" y1="9.63" x2="35.63" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="20.22" x2="55.34" y2="20.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="25"/>
-<wire x1="38.17" y1="9.63" x2="38.17" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="22.76" x2="55.34" y2="22.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="27"/>
-<wire x1="40.71" y1="9.63" x2="40.71" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="25.3" x2="55.34" y2="25.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="29"/>
-<wire x1="43.25" y1="9.63" x2="43.25" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="27.84" x2="55.34" y2="27.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="31"/>
-<wire x1="45.79" y1="9.63" x2="45.79" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="30.38" x2="55.34" y2="30.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="33"/>
-<wire x1="48.33" y1="9.63" x2="48.33" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="32.92" x2="55.34" y2="32.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="ARRAY_SENSOR" gate="A" pin="35"/>
-<wire x1="50.87" y1="9.63" x2="50.87" y2="0.2" width="0.1524" layer="91"/>
+<wire x1="45.91" y1="35.46" x2="55.34" y2="35.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -3842,6 +3832,20 @@
 <segment>
 <pinref part="LCD" gate="A" pin="40"/>
 <wire x1="107.52" y1="-6.63" x2="116.95" y2="-6.63" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3V3_1" class="0">
+<segment>
+<pinref part="TIVA1" gate="A" pin="2"/>
+<wire x1="9.05" y1="84.72" x2="9.05" y2="94.15" width="0.1524" layer="91"/>
+<label x="9.08" y="90.35" size="1.9304" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="5V_1" class="0">
+<segment>
+<pinref part="TIVA1" gate="A" pin="1"/>
+<wire x1="9.05" y1="77.1" x2="9.05" y2="67.05" width="0.1524" layer="91"/>
+<label x="9.08" y="68.79" size="1.9304" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>

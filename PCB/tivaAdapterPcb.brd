@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="196.850394" altunitdist="mil" altunit="mil"/>
@@ -70,6 +70,72 @@
 <wire x1="135.87" y1="64.44" x2="1.27" y2="64.44" width="0" layer="20"/>
 <hole x="3.24" y="63" drill="0.9"/>
 <hole x="133.75" y="62.75" drill="1"/>
+<hole x="23.54" y="35.64" drill="1"/>
+<hole x="112.81" y="35.04" drill="1"/>
+<text x="82.34" y="35.34" size="1.778" layer="21" rot="R180">BachelorProjekt-Ole-Hung</text>
+<text x="19.71" y="46.94" size="1.4224" layer="21" rot="R90">NC</text>
+<text x="22.17" y="46.52" size="1.4224" layer="21" rot="R90">LED_A</text>
+<text x="24.54" y="46.85" size="1.4224" layer="21" rot="R90">5V</text>
+<text x="27.33" y="46.52" size="1.4224" layer="21" rot="R90">RESET</text>
+<text x="29.85" y="46.33" size="1.4224" layer="21" rot="R90">F_CS</text>
+<text x="32.4" y="46.99" size="1.4224" layer="21" rot="R90">CS</text>
+<text x="34.82" y="46.52" size="1.4224" layer="21" rot="R90">DB15</text>
+<text x="42.54" y="46.47" size="1.4224" layer="21" rot="R90">DB12</text>
+<text x="39.98" y="46.47" size="1.4224" layer="21" rot="R90">DB13</text>
+<text x="45.05" y="46.56" size="1.4224" layer="21" rot="R90">DB11</text>
+<text x="47.61" y="46.33" size="1.4224" layer="21" rot="R90">DB10</text>
+<text x="50.17" y="46.52" size="1.4224" layer="21" rot="R90">DB9</text>
+<text x="52.82" y="46.56" size="1.4224" layer="21" rot="R90">DB8</text>
+<text x="55.24" y="46.56" size="1.4224" layer="21" rot="R90">RD</text>
+<text x="57.74" y="46.47" size="1.4224" layer="21" rot="R90">WR</text>
+<text x="60.27" y="46.4" size="1.4224" layer="21" rot="R90">RS</text>
+<text x="62.92" y="46.26" size="1.4224" layer="21" rot="R90">NC</text>
+<text x="65.27" y="46.19" size="1.4224" layer="21" rot="R90">3V3</text>
+<text x="67.88" y="46.4" size="1.4224" layer="21" rot="R90">GND</text>
+<text x="19.56" y="38.3" size="1.4224" layer="21" rot="R90">NC</text>
+<text x="22.17" y="38.14" size="1.4224" layer="21" rot="R90">NC</text>
+<text x="24.71" y="34.8" size="1.4224" layer="21" rot="R90">SD_CS</text>
+<text x="27.33" y="33.95" size="1.4224" layer="21" rot="R90">SD_DIN</text>
+<text x="29.85" y="33.24" size="1.4224" layer="21" rot="R90">SD_CLK</text>
+<text x="32.28" y="34.59" size="1.4224" layer="21" rot="R90">SD_D0</text>
+<text x="34.86" y="35.25" size="1.4224" layer="21" rot="R90">T_IQR</text>
+<text x="37.36" y="36.07" size="1.4224" layer="21" rot="R90">T_D0</text>
+<text x="39.91" y="38.05" size="1.4224" layer="21" rot="R90">NC</text>
+<text x="42.54" y="35.28" size="1.4224" layer="21" rot="R90">T_DIN</text>
+<text x="45.09" y="35.88" size="1.4224" layer="21" rot="R90">T_CS</text>
+<text x="47.48" y="34.84" size="1.4224" layer="21" rot="R90">T_CLK</text>
+<text x="50.25" y="37.2" size="1.4224" layer="21" rot="R90">DB7</text>
+<text x="52.77" y="37.12" size="1.4224" layer="21" rot="R90">DB6</text>
+<text x="55.21" y="37.23" size="1.4224" layer="21" rot="R90">DB5</text>
+<text x="57.79" y="37.17" size="1.4224" layer="21" rot="R90">DB4</text>
+<text x="60.42" y="37.09" size="1.4224" layer="21" rot="R90">DB3</text>
+<text x="62.81" y="37.17" size="1.4224" layer="21" rot="R90">DB2</text>
+<text x="65.41" y="37.12" size="1.4224" layer="21" rot="R90">DB1</text>
+<text x="67.97" y="36.98" size="1.4224" layer="21" rot="R90">DB0</text>
+<text x="37.29" y="46.69" size="1.4224" layer="21" rot="R90">DB11</text>
+<text x="78.36" y="46.24" size="1.4224" layer="21" rot="R90">PD2</text>
+<text x="80.96" y="46.15" size="1.4224" layer="21" rot="R90">PD0</text>
+<text x="83.43" y="46.03" size="1.4224" layer="21" rot="R90">PD1</text>
+<text x="86.01" y="45.94" size="1.4224" layer="21" rot="R90">PD3</text>
+<text x="88.64" y="45.9" size="1.4224" layer="21" rot="R90">PD6</text>
+<text x="91.2" y="45.94" size="1.4224" layer="21" rot="R90">PD7</text>
+<text x="93.75" y="45.87" size="1.4224" layer="21" rot="R90">PD4</text>
+<text x="96.29" y="45.92" size="1.4224" layer="21" rot="R90">PD5</text>
+<text x="98.78" y="45.94" size="1.4224" layer="21" rot="R90">GND</text>
+<text x="101.45" y="45.94" size="1.4224" layer="21" rot="R90">VREF</text>
+<text x="103.94" y="45.87" size="1.4224" layer="21" rot="R90">PK3</text>
+<text x="106.41" y="45.92" size="1.4224" layer="21" rot="R90">PK2</text>
+<text x="108.83" y="45.96" size="1.4224" layer="21" rot="R90">PK1</text>
+<text x="111.48" y="45.87" size="1.4224" layer="21" rot="R90">PK0</text>
+<text x="114.1" y="45.85" size="1.4224" layer="21" rot="R90">PE5</text>
+<text x="116.64" y="45.87" size="1.4224" layer="21" rot="R90">PE4</text>
+<text x="119.2" y="45.83" size="1.4224" layer="21" rot="R90">PE3</text>
+<text x="121.82" y="45.9" size="1.4224" layer="21" rot="R90">PE2</text>
+<text x="98.87" y="37.18" size="1.4224" layer="21" rot="R90">PF3</text>
+<text x="101.5" y="36.49" size="1.4224" layer="21" rot="R90">GND</text>
+<text x="103.88" y="37.19" size="1.4224" layer="21" rot="R90">PF2</text>
+<text x="106.42" y="37.17" size="1.4224" layer="21" rot="R90">PF1</text>
+<text x="109.04" y="37.19" size="1.4224" layer="21" rot="R90">PF0</text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:325">
@@ -1278,32 +1344,30 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="TIVA1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X30" package3d_urn="urn:adsk.eagle:package:22463/2" value="" x="45.75" y="58.5" smashed="yes">
-<attribute name="NAME" x="6.38" y="61.675" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="0" x="45.75" y="58.5" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="6.38" y="54.055" size="1.27" layer="27"/>
+<element name="TIVA1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X30" package3d_urn="urn:adsk.eagle:package:22463/2" value="" x="91.73" y="58.88" smashed="yes" rot="MR0">
+<attribute name="NAME" x="131.84" y="63.015" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="POPULARITY" value="0" x="91.73" y="58.88" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="131.1" y="54.435" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="TIVA2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X19" package3d_urn="urn:adsk.eagle:package:22500/2" value="" x="106.71" y="58.42" smashed="yes">
-<attribute name="NAME" x="82.58" y="61.595" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="0" x="106.71" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="82.58" y="53.975" size="1.27" layer="27"/>
+<element name="TIVA2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X19" package3d_urn="urn:adsk.eagle:package:22500/2" value="" x="30.58" y="58.95" smashed="yes" rot="MR0">
+<attribute name="NAME" x="6.88" y="61.905" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="0" x="30.58" y="58.95" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="54.71" y="54.505" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="ARRAY_SENSOR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X18" package3d_urn="urn:adsk.eagle:package:22438/2" value="" x="39.24" y="43.41" smashed="yes">
-<attribute name="NAME" x="16.38" y="46.585" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="0" x="39.24" y="43.41" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="16.38" y="38.965" size="1.27" layer="27"/>
+<element name="ARRAY_SENSOR" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X18" package3d_urn="urn:adsk.eagle:package:22438/2" value="" x="99.4" y="43.41" smashed="yes" rot="MR0">
+<attribute name="NAME" x="94.08" y="33.665" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="0" x="99.4" y="43.41" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="122.26" y="38.965" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="LCD" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X20" package3d_urn="urn:adsk.eagle:package:22443/2" value="" x="97.79" y="43.18" smashed="yes">
-<attribute name="NAME" x="72.39" y="46.355" size="1.27" layer="25" ratio="10"/>
-<attribute name="POPULARITY" value="12" x="97.79" y="43.18" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="72.39" y="38.735" size="1.27" layer="27"/>
+<element name="LCD" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X20" package3d_urn="urn:adsk.eagle:package:22443/2" value="" x="43.1" y="43.78" smashed="yes">
+<attribute name="NAME" x="38.5" y="32.925" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="12" x="43.1" y="43.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.7" y="39.335" size="1.27" layer="27"/>
 </element>
 </elements>
 <signals>
 <signal name="5V">
-<contactref element="TIVA1" pad="1"/>
 <contactref element="TIVA2" pad="38"/>
-<wire x1="7.65" y1="57.23" x2="129.57" y2="59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="TIVA1" pad="3"/>
@@ -1323,14 +1387,19 @@ design rules under a new name.</description>
 <vertex x="1.25" y="63.575390625"/>
 <vertex x="1.25" y="64.4"/>
 </polygon>
-<wire x1="83.85" y1="57.15" x2="127.03" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="83.85" y1="59.69" x2="83.85" y2="57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="50.83" y1="59.77" x2="83.85" y2="59.69" width="0" layer="19" extent="1-1"/>
-<wire x1="50.83" y1="57.23" x2="50.83" y2="59.77" width="0" layer="19" extent="1-1"/>
-<wire x1="40.51" y1="44.68" x2="50.83" y2="57.23" width="0" layer="19" extent="1-1"/>
-<wire x1="37.97" y1="42.14" x2="40.51" y2="44.68" width="0" layer="19" extent="1-1"/>
-<wire x1="10.19" y1="57.23" x2="37.97" y2="42.14" width="0" layer="19" extent="1-1"/>
-<wire x1="10.19" y1="59.77" x2="10.19" y2="57.23" width="0" layer="19" extent="1-1"/>
+<polygon width="0.3048" layer="16">
+<vertex x="1.24" y="64.41"/>
+<vertex x="135.9" y="64.41"/>
+<vertex x="135.94" y="64.37"/>
+<vertex x="135.94" y="64.155209375" curve="-90"/>
+<vertex x="103.684790625" y="31.9"/>
+<vertex x="32.951734375" y="31.9" curve="-90"/>
+<vertex x="1.23" y="63.621734375"/>
+<vertex x="1.23" y="64.4"/>
+<vertex x="1.27" y="64.4"/>
+</polygon>
+<wire x1="86.65" y1="57.61" x2="98.13" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="98.13" y1="46.13" x2="98.13" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PA2">
 <contactref element="TIVA1" pad="5"/>
@@ -1371,7 +1440,8 @@ design rules under a new name.</description>
 <signal name="PE2">
 <contactref element="TIVA1" pad="17"/>
 <contactref element="ARRAY_SENSOR" pad="2"/>
-<wire x1="17.65" y1="44.68" x2="27.97" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="109.51" y1="57.61" x2="120.99" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="120.99" y1="46.13" x2="120.99" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PC7">
 <contactref element="TIVA1" pad="18"/>
@@ -1379,7 +1449,8 @@ design rules under a new name.</description>
 <signal name="PE3">
 <contactref element="TIVA1" pad="19"/>
 <contactref element="ARRAY_SENSOR" pad="4"/>
-<wire x1="20.19" y1="44.68" x2="30.51" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="106.97" y1="57.61" x2="118.45" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="118.45" y1="46.13" x2="118.45" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PC6">
 <contactref element="TIVA1" pad="20"/>
@@ -1387,7 +1458,8 @@ design rules under a new name.</description>
 <signal name="PE4">
 <contactref element="TIVA1" pad="21"/>
 <contactref element="ARRAY_SENSOR" pad="6"/>
-<wire x1="22.73" y1="44.68" x2="33.05" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="104.43" y1="57.61" x2="115.91" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="115.91" y1="46.13" x2="115.91" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PC5">
 <contactref element="TIVA1" pad="22"/>
@@ -1395,7 +1467,8 @@ design rules under a new name.</description>
 <signal name="PE5">
 <contactref element="TIVA1" pad="23"/>
 <contactref element="ARRAY_SENSOR" pad="8"/>
-<wire x1="25.27" y1="44.68" x2="35.59" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="101.89" y1="57.61" x2="113.37" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="113.37" y1="46.13" x2="113.37" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PC4">
 <contactref element="TIVA1" pad="24"/>
@@ -1403,7 +1476,8 @@ design rules under a new name.</description>
 <signal name="PK0">
 <contactref element="TIVA1" pad="25"/>
 <contactref element="ARRAY_SENSOR" pad="10"/>
-<wire x1="27.81" y1="44.68" x2="38.13" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="99.35" y1="57.61" x2="110.83" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="110.83" y1="46.13" x2="110.83" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PA6">
 <contactref element="TIVA1" pad="26"/>
@@ -1411,7 +1485,8 @@ design rules under a new name.</description>
 <signal name="PK1">
 <contactref element="TIVA1" pad="27"/>
 <contactref element="ARRAY_SENSOR" pad="12"/>
-<wire x1="30.35" y1="44.68" x2="40.67" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="96.81" y1="57.61" x2="108.29" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="108.29" y1="46.13" x2="108.29" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PA7">
 <contactref element="TIVA1" pad="28"/>
@@ -1419,7 +1494,8 @@ design rules under a new name.</description>
 <signal name="PK2">
 <contactref element="TIVA1" pad="29"/>
 <contactref element="ARRAY_SENSOR" pad="14"/>
-<wire x1="32.89" y1="44.68" x2="43.21" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="94.27" y1="57.61" x2="105.75" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="105.75" y1="46.13" x2="105.75" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PG1">
 <contactref element="TIVA1" pad="30"/>
@@ -1427,7 +1503,8 @@ design rules under a new name.</description>
 <signal name="PK3">
 <contactref element="TIVA1" pad="31"/>
 <contactref element="ARRAY_SENSOR" pad="16"/>
-<wire x1="35.43" y1="44.68" x2="45.75" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="91.73" y1="57.61" x2="103.21" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="103.21" y1="46.13" x2="103.21" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PG0">
 <contactref element="TIVA1" pad="32"/>
@@ -1435,87 +1512,168 @@ design rules under a new name.</description>
 <signal name="VREF">
 <contactref element="TIVA1" pad="33"/>
 <contactref element="ARRAY_SENSOR" pad="18"/>
-<wire x1="37.97" y1="44.68" x2="48.29" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="89.19" y1="57.61" x2="100.67" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="100.67" y1="46.13" x2="100.67" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PM3">
 <contactref element="TIVA1" pad="34"/>
 <contactref element="LCD" pad="33"/>
-<wire x1="48.29" y1="59.77" x2="114.3" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="89.19" y1="60.15" x2="87.7168" y2="58.6768" width="0.3048" layer="16"/>
+<wire x1="87.7168" y1="58.6768" x2="87.7168" y2="57.1681125" width="0.3048" layer="16"/>
+<wire x1="87.7168" y1="57.1681125" x2="82.6486875" y2="52.1" width="0.3048" layer="16"/>
+<wire x1="82.6486875" y1="52.1" x2="76.08" y2="52.1" width="0.3048" layer="16"/>
+<wire x1="76.08" y1="52.1" x2="71.05" y2="47.07" width="0.3048" layer="16"/>
+<wire x1="71.05" y1="47.07" x2="71.05" y2="40.33" width="0.3048" layer="16"/>
+<wire x1="71.05" y1="40.33" x2="69.34" y2="38.62" width="0.3048" layer="16"/>
+<wire x1="69.34" y1="38.62" x2="61.11" y2="38.62" width="0.3048" layer="16"/>
+<wire x1="61.11" y1="38.62" x2="59.48" y2="40.25" width="0.3048" layer="16"/>
+<wire x1="59.48" y1="42.38" x2="59.61" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="59.48" y1="40.25" x2="59.48" y2="42.38" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD5">
 <contactref element="TIVA1" pad="37"/>
 <contactref element="ARRAY_SENSOR" pad="22"/>
-<wire x1="43.05" y1="44.68" x2="53.37" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="84.11" y1="57.61" x2="95.59" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="95.59" y1="46.13" x2="95.59" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PM2">
 <contactref element="TIVA1" pad="38"/>
 <contactref element="LCD" pad="35"/>
-<wire x1="53.37" y1="59.77" x2="116.84" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="84.11" y1="60.15" x2="84.11" y2="59.1186875" width="0.3048" layer="16"/>
+<wire x1="83.0432" y1="55.7832" x2="82.97" y2="55.71" width="0.3048" layer="16"/>
+<wire x1="84.11" y1="59.1186875" x2="83.0432" y2="58.0518875" width="0.3048" layer="16"/>
+<wire x1="83.0432" y1="58.0518875" x2="83.0432" y2="55.7832" width="0.3048" layer="16"/>
+<wire x1="82.97" y1="55.71" x2="82.97" y2="53.39" width="0.3048" layer="16"/>
+<wire x1="82.97" y1="53.39" x2="82.1372" y2="52.5572" width="0.3048" layer="16"/>
+<wire x1="75.89061875" y1="52.5572" x2="70.57" y2="47.23658125" width="0.3048" layer="16"/>
+<wire x1="70.57" y1="47.23658125" x2="70.57" y2="40.8" width="0.3048" layer="16"/>
+<wire x1="70.57" y1="40.8" x2="68.8472" y2="39.0772" width="0.3048" layer="16"/>
+<wire x1="68.8472" y1="39.0772" x2="62.88" y2="39.0772" width="0.3048" layer="16"/>
+<wire x1="62.88" y1="39.0772" x2="62.13" y2="39.8272" width="0.3048" layer="16"/>
+<wire x1="62.13" y1="42.49" x2="62.15" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="82.1372" y1="52.5572" x2="75.89061875" y2="52.5572" width="0.3048" layer="16"/>
+<wire x1="62.13" y1="39.8272" x2="62.13" y2="42.49" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD4">
 <contactref element="TIVA1" pad="39"/>
 <contactref element="ARRAY_SENSOR" pad="24"/>
-<wire x1="45.59" y1="44.68" x2="55.91" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="81.57" y1="57.61" x2="93.05" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="93.05" y1="46.13" x2="93.05" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PM1">
 <contactref element="TIVA1" pad="40"/>
 <contactref element="LCD" pad="37"/>
-<wire x1="55.91" y1="59.77" x2="119.38" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="81.57" y1="60.15" x2="80.25" y2="58.83" width="0.3048" layer="16"/>
+<wire x1="80.25" y1="58.83" x2="80.25" y2="53.19" width="0.3048" layer="16"/>
+<wire x1="75.7012375" y1="53.0144" x2="70.1128" y2="47.4259625" width="0.3048" layer="16"/>
+<wire x1="70.1128" y1="47.4259625" x2="70.1128" y2="41.01" width="0.3048" layer="16"/>
+<wire x1="80.25" y1="53.19" x2="80.0744" y2="53.0144" width="0.3048" layer="16"/>
+<wire x1="80.0744" y1="53.0144" x2="75.7012375" y2="53.0144" width="0.3048" layer="16"/>
+<wire x1="70.1128" y1="41.01" x2="68.6372" y2="39.5344" width="0.3048" layer="16"/>
+<wire x1="68.6372" y1="39.5344" x2="65.06" y2="39.5344" width="0.3048" layer="16"/>
+<wire x1="65.06" y1="39.5344" x2="64.58" y2="40.0144" width="0.3048" layer="16"/>
+<wire x1="64.58" y1="42.4" x2="64.69" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="64.58" y1="40.0144" x2="64.58" y2="42.4" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD7">
 <contactref element="TIVA1" pad="41"/>
 <contactref element="ARRAY_SENSOR" pad="26"/>
-<wire x1="48.13" y1="44.68" x2="58.45" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="79.03" y1="57.61" x2="90.51" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="90.51" y1="46.13" x2="90.51" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PM0">
 <contactref element="TIVA1" pad="42"/>
 <contactref element="LCD" pad="39"/>
-<wire x1="58.45" y1="59.77" x2="121.92" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="77.5568" y1="57.1681125" x2="77.46" y2="57.0713125" width="0.3048" layer="16"/>
+<wire x1="77.46" y1="57.0713125" x2="77.46" y2="53.8" width="0.3048" layer="16"/>
+<wire x1="79.03" y1="60.15" x2="77.5568" y2="58.6768" width="0.3048" layer="16"/>
+<wire x1="77.5568" y1="58.6768" x2="77.5568" y2="57.1681125" width="0.3048" layer="16"/>
+<wire x1="77.46" y1="53.8" x2="77.1316" y2="53.4716" width="0.3048" layer="16"/>
+<wire x1="77.1316" y1="53.4716" x2="75.51185625" y2="53.4716" width="0.3048" layer="16"/>
+<wire x1="75.51185625" y1="53.4716" x2="69.6556" y2="47.61534375" width="0.3048" layer="16"/>
+<wire x1="69.6556" y1="41.3856" x2="68.43" y2="40.16" width="0.3048" layer="16"/>
+<wire x1="68.43" y1="40.16" x2="67.61" y2="40.16" width="0.3048" layer="16"/>
+<wire x1="67.61" y1="40.16" x2="67.23" y2="40.54" width="0.3048" layer="16"/>
+<wire x1="67.23" y1="40.54" x2="67.23" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="69.6556" y1="47.61534375" x2="69.6556" y2="41.3856" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD6">
 <contactref element="TIVA1" pad="43"/>
 <contactref element="ARRAY_SENSOR" pad="28"/>
-<wire x1="50.67" y1="44.68" x2="60.99" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="76.49" y1="57.61" x2="87.97" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="87.97" y1="46.13" x2="87.97" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PL0">
 <contactref element="TIVA1" pad="44"/>
 <contactref element="LCD" pad="30"/>
-<wire x1="60.99" y1="59.77" x2="109.22" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="76.49" y1="60.15" x2="75.46" y2="59.12" width="0.3048" layer="16"/>
+<wire x1="75.46" y1="59.12" x2="75.42" y2="59.12" width="0.3048" layer="16"/>
+<wire x1="75.42" y1="59.12" x2="75.22" y2="58.92" width="0.3048" layer="16"/>
+<wire x1="75.22" y1="58.92" x2="75.22" y2="53.826325" width="0.3048" layer="16"/>
+<wire x1="75.22" y1="53.826325" x2="67.693675" y2="46.3" width="0.3048" layer="16"/>
+<wire x1="67.693675" y1="46.3" x2="55.78" y2="46.3" width="0.3048" layer="16"/>
+<wire x1="55.78" y1="46.3" x2="54.53" y2="45.05" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD3">
 <contactref element="TIVA1" pad="45"/>
 <contactref element="ARRAY_SENSOR" pad="30"/>
-<wire x1="53.21" y1="44.68" x2="63.53" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="73.95" y1="57.61" x2="85.43" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="85.43" y1="46.13" x2="85.43" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PL1">
 <contactref element="TIVA1" pad="46"/>
 <contactref element="LCD" pad="32"/>
-<wire x1="63.53" y1="59.77" x2="111.76" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="72.8832" y1="59.0832" x2="72.8832" y2="52.4554375" width="0.3048" layer="16"/>
+<wire x1="73.95" y1="60.15" x2="72.8832" y2="59.0832" width="0.3048" layer="16"/>
+<wire x1="72.8832" y1="52.4554375" x2="67.63888125" y2="47.21111875" width="0.3048" layer="16"/>
+<via x="67.63888125" y="47.21111875" extent="1-16" drill="0.35"/>
+<wire x1="67.63888125" y1="47.21111875" x2="67.1577625" y2="46.73" width="0.3048" layer="1"/>
+<wire x1="67.1577625" y1="46.73" x2="58.54" y2="46.73" width="0.3048" layer="1"/>
+<wire x1="58.54" y1="46.73" x2="57.07" y2="45.26" width="0.3048" layer="1"/>
+<wire x1="57.07" y1="45.26" x2="57.07" y2="45.05" width="0.3048" layer="1"/>
 </signal>
 <signal name="PD1">
 <contactref element="TIVA1" pad="47"/>
 <contactref element="ARRAY_SENSOR" pad="32"/>
-<wire x1="55.75" y1="44.68" x2="66.07" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="71.41" y1="57.61" x2="82.89" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="82.89" y1="46.13" x2="82.89" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PL2">
 <contactref element="TIVA1" pad="48"/>
 <contactref element="LCD" pad="34"/>
-<wire x1="66.07" y1="59.77" x2="114.3" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="71.41" y1="60.15" x2="70.24" y2="58.98" width="0.3048" layer="16"/>
+<wire x1="70.24" y1="50.54" x2="68.24" y2="48.54" width="0.3048" layer="16"/>
+<wire x1="68.24" y1="48.54" x2="67.81" y2="48.54" width="0.3048" layer="16"/>
+<via x="67.81" y="48.54" extent="1-16" drill="0.35"/>
+<wire x1="70.24" y1="58.98" x2="70.24" y2="50.54" width="0.3048" layer="16"/>
+<wire x1="67.81" y1="48.54" x2="68.41" y2="47.94" width="0.3048" layer="1"/>
+<wire x1="68.41" y1="47.94" x2="68.41" y2="46.93" width="0.3048" layer="1"/>
+<wire x1="68.41" y1="46.93" x2="67.7528" y2="46.2728" width="0.3048" layer="1"/>
+<wire x1="67.7528" y1="46.2728" x2="60.39" y2="46.2728" width="0.3048" layer="1"/>
+<wire x1="60.39" y1="46.2728" x2="59.61" y2="45.4928" width="0.3048" layer="1"/>
+<wire x1="59.61" y1="45.4928" x2="59.61" y2="45.05" width="0.3048" layer="1"/>
 </signal>
 <signal name="PD0">
 <contactref element="TIVA1" pad="49"/>
 <contactref element="ARRAY_SENSOR" pad="34"/>
-<wire x1="58.29" y1="44.68" x2="68.61" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="68.87" y1="57.61" x2="80.35" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="80.35" y1="46.13" x2="80.35" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PL3">
 <contactref element="TIVA1" pad="50"/>
 <contactref element="LCD" pad="12"/>
-<wire x1="68.61" y1="59.77" x2="86.36" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="68.87" y1="60.15" x2="67.65" y2="58.93" width="0.3048" layer="16"/>
+<wire x1="67.65" y1="58.93" x2="67.65" y2="49.43" width="0.3048" layer="16"/>
+<wire x1="67.65" y1="49.43" x2="65.13" y2="46.91" width="0.3048" layer="16"/>
+<wire x1="65.13" y1="46.91" x2="33" y2="46.91" width="0.3048" layer="16"/>
+<wire x1="33" y1="46.91" x2="31.67" y2="45.58" width="0.3048" layer="16"/>
+<wire x1="31.67" y1="45.58" x2="31.67" y2="45.05" width="0.3048" layer="16"/>
 </signal>
 <signal name="PD2">
 <contactref element="TIVA1" pad="51"/>
 <contactref element="ARRAY_SENSOR" pad="36"/>
-<wire x1="60.83" y1="44.68" x2="71.15" y2="57.23" width="0" layer="19" extent="1-1"/>
+<wire x1="66.33" y1="57.61" x2="77.81" y2="46.13" width="0.3048" layer="1"/>
+<wire x1="77.81" y1="46.13" x2="77.81" y2="44.68" width="0.3048" layer="1"/>
 </signal>
 <signal name="PQ0">
 <contactref element="TIVA1" pad="52"/>
@@ -1553,17 +1711,33 @@ design rules under a new name.</description>
 <signal name="PF0">
 <contactref element="TIVA2" pad="5"/>
 <contactref element="ARRAY_SENSOR" pad="11"/>
-<wire x1="30.35" y1="42.14" x2="88.93" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="48.36" y1="57.68" x2="55.97" y2="50.07" width="0.3048" layer="1"/>
+<wire x1="56.63" y1="40.14" x2="107.34" y2="40.14" width="0.3048" layer="1"/>
+<wire x1="107.34" y1="40.14" x2="108.29" y2="41.09" width="0.3048" layer="1"/>
+<wire x1="108.29" y1="41.09" x2="108.29" y2="42.14" width="0.3048" layer="1"/>
+<wire x1="55.97" y1="40.8" x2="56.63" y2="40.14" width="0.3048" layer="1"/>
+<wire x1="55.97" y1="50.07" x2="55.97" y2="40.8" width="0.3048" layer="1"/>
 </signal>
 <signal name="PL4">
 <contactref element="TIVA2" pad="6"/>
 <contactref element="LCD" pad="8"/>
-<wire x1="81.28" y1="44.45" x2="88.93" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="48.36" y1="60.22" x2="47.08" y2="58.94" width="0.3048" layer="16"/>
+<wire x1="47.08" y1="58.94" x2="47.08" y2="49.15" width="0.3048" layer="16"/>
+<wire x1="47.08" y1="49.15" x2="45.32" y2="47.39" width="0.3048" layer="16"/>
+<wire x1="45.32" y1="47.39" x2="28.57" y2="47.39" width="0.3048" layer="16"/>
+<wire x1="28.57" y1="47.39" x2="26.59" y2="45.41" width="0.3048" layer="16"/>
+<wire x1="26.59" y1="45.41" x2="26.59" y2="45.05" width="0.3048" layer="16"/>
 </signal>
 <signal name="PF1">
 <contactref element="TIVA2" pad="7"/>
 <contactref element="ARRAY_SENSOR" pad="13"/>
-<wire x1="32.89" y1="42.14" x2="91.47" y2="57.15" width="0" layer="19" extent="1-1"/>
+<via x="105.14" y="39.44" extent="1-16" drill="0.35"/>
+<wire x1="45.82" y1="57.68" x2="53.42" y2="50.08" width="0.3048" layer="1"/>
+<wire x1="54.35" y1="39.44" x2="105.14" y2="39.44" width="0.3048" layer="1"/>
+<wire x1="105.14" y1="39.44" x2="105.75" y2="40.05" width="0.3048" layer="16"/>
+<wire x1="105.75" y1="40.05" x2="105.75" y2="42.14" width="0.3048" layer="16"/>
+<wire x1="53.42" y1="40.37" x2="54.35" y2="39.44" width="0.3048" layer="1"/>
+<wire x1="53.42" y1="50.08" x2="53.42" y2="40.37" width="0.3048" layer="1"/>
 </signal>
 <signal name="PB2">
 <contactref element="TIVA2" pad="8"/>
@@ -1571,7 +1745,13 @@ design rules under a new name.</description>
 <signal name="PF2">
 <contactref element="TIVA2" pad="9"/>
 <contactref element="ARRAY_SENSOR" pad="15"/>
-<wire x1="35.43" y1="42.14" x2="94.01" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="43.28" y1="57.68" x2="50.79" y2="50.17" width="0.3048" layer="1"/>
+<via x="102.31" y="38.757" extent="1-16" drill="0.35"/>
+<wire x1="51.89" y1="38.757" x2="102.31" y2="38.757" width="0.3048" layer="1"/>
+<wire x1="102.31" y1="38.757" x2="103.21" y2="39.657" width="0.3048" layer="16"/>
+<wire x1="103.21" y1="39.657" x2="103.21" y2="42.14" width="0.3048" layer="16"/>
+<wire x1="50.79" y1="39.857" x2="51.89" y2="38.757" width="0.3048" layer="1"/>
+<wire x1="50.79" y1="50.17" x2="50.79" y2="39.857" width="0.3048" layer="1"/>
 </signal>
 <signal name="PB3">
 <contactref element="TIVA2" pad="10"/>
@@ -1579,7 +1759,13 @@ design rules under a new name.</description>
 <signal name="PF3">
 <contactref element="TIVA2" pad="11"/>
 <contactref element="ARRAY_SENSOR" pad="19"/>
-<wire x1="40.51" y1="42.14" x2="96.55" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="40.74" y1="57.68" x2="48.37" y2="50.05" width="0.3048" layer="1"/>
+<wire x1="48.37" y1="50.05" x2="48.37" y2="38.99" width="0.3048" layer="1"/>
+<wire x1="48.37" y1="38.99" x2="49.32" y2="38.04" width="0.3048" layer="1"/>
+<wire x1="49.32" y1="38.04" x2="97.33" y2="38.04" width="0.3048" layer="1"/>
+<via x="97.33" y="38.04" extent="1-16" drill="0.35"/>
+<wire x1="97.33" y1="38.04" x2="98.13" y2="38.84" width="0.3048" layer="16"/>
+<wire x1="98.13" y1="38.84" x2="98.13" y2="42.14" width="0.3048" layer="16"/>
 </signal>
 <signal name="PP2">
 <contactref element="TIVA2" pad="12"/>
@@ -1614,7 +1800,14 @@ design rules under a new name.</description>
 <signal name="PN4">
 <contactref element="TIVA2" pad="22"/>
 <contactref element="LCD" pad="13"/>
-<wire x1="88.9" y1="41.91" x2="109.25" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="28.04" y1="60.22" x2="29.22" y2="59.04" width="0.3048" layer="1"/>
+<wire x1="29.22" y1="59.04" x2="29.22" y2="46.49" width="0.3048" layer="1"/>
+<wire x1="30.59" y1="45.12" x2="30.59" y2="41.7" width="0.3048" layer="1"/>
+<wire x1="30.59" y1="41.7" x2="31.03" y2="41.26" width="0.3048" layer="1"/>
+<wire x1="31.03" y1="41.26" x2="33.24" y2="41.26" width="0.3048" layer="1"/>
+<wire x1="33.24" y1="41.26" x2="34.21" y2="42.23" width="0.3048" layer="1"/>
+<wire x1="34.21" y1="42.23" x2="34.21" y2="42.51" width="0.3048" layer="1"/>
+<wire x1="29.22" y1="46.49" x2="30.59" y2="45.12" width="0.3048" layer="1"/>
 </signal>
 <signal name="PJ1">
 <contactref element="TIVA2" pad="23"/>
@@ -1625,50 +1818,116 @@ design rules under a new name.</description>
 <signal name="PM7">
 <contactref element="TIVA2" pad="25"/>
 <contactref element="LCD" pad="25"/>
-<wire x1="104.14" y1="41.91" x2="114.33" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="22.96" y1="57.68" x2="22.13" y2="56.85" width="0.3048" layer="16"/>
+<wire x1="22.13" y1="56.85" x2="22.13" y2="49.34" width="0.3048" layer="16"/>
+<wire x1="25.39" y1="46.08" x2="25.39" y2="40.83" width="0.3048" layer="16"/>
+<wire x1="25.39" y1="40.83" x2="25.94" y2="40.28" width="0.3048" layer="16"/>
+<wire x1="25.94" y1="40.28" x2="48.03" y2="40.28" width="0.3048" layer="16"/>
+<wire x1="48.03" y1="40.28" x2="49.45" y2="41.7" width="0.3048" layer="16"/>
+<wire x1="49.45" y1="41.7" x2="49.45" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="22.13" y1="49.34" x2="25.39" y2="46.08" width="0.3048" layer="16"/>
 </signal>
 <signal name="PN0">
 <contactref element="TIVA2" pad="26"/>
 <contactref element="LCD" pad="19"/>
-<wire x1="96.52" y1="41.91" x2="114.33" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="24.0268" y1="57.2381125" x2="23.98" y2="57.1913125" width="0.3048" layer="1"/>
+<wire x1="23.98" y1="57.1913125" x2="23.98" y2="48.05" width="0.3048" layer="1"/>
+<wire x1="22.96" y1="60.22" x2="24.0268" y2="59.1532" width="0.3048" layer="1"/>
+<wire x1="24.0268" y1="59.1532" x2="24.0268" y2="57.2381125" width="0.3048" layer="1"/>
+<wire x1="23.98" y1="48.05" x2="25.69" y2="46.34" width="0.3048" layer="1"/>
+<wire x1="25.69" y1="46.34" x2="27.21" y2="46.34" width="0.3048" layer="1"/>
+<wire x1="27.21" y1="46.34" x2="27.76" y2="45.79" width="0.3048" layer="1"/>
+<wire x1="27.76" y1="45.79" x2="27.76" y2="41.26" width="0.3048" layer="1"/>
+<wire x1="27.76" y1="41.26" x2="28.467" y2="40.553" width="0.3048" layer="1"/>
+<wire x1="34.29" y1="40.553" x2="34.75" y2="41.013" width="0.3048" layer="1"/>
+<wire x1="34.29" y1="40.553" x2="28.467" y2="40.553" width="0.3048" layer="1"/>
+<via x="34.75" y="41.013" extent="1-16" drill="0.35"/>
+<wire x1="34.75" y1="41.013" x2="41.473" y2="41.013" width="0.3048" layer="16"/>
+<wire x1="41.473" y1="41.013" x2="41.84" y2="41.38" width="0.3048" layer="16"/>
+<wire x1="41.84" y1="41.38" x2="41.84" y2="42.5" width="0.3048" layer="16"/>
+<wire x1="41.84" y1="42.5" x2="41.83" y2="42.51" width="0.3048" layer="16"/>
 </signal>
 <signal name="PM6">
 <contactref element="TIVA2" pad="27"/>
 <contactref element="LCD" pad="27"/>
-<wire x1="106.68" y1="41.91" x2="116.87" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="20.42" y1="57.68" x2="19.59" y2="56.85" width="0.3048" layer="16"/>
+<wire x1="19.59" y1="56.85" x2="19.59" y2="50.28" width="0.3048" layer="16"/>
+<wire x1="22.9832" y1="42.0681125" x2="25.2813125" y2="39.77" width="0.3048" layer="16"/>
+<wire x1="25.2813125" y1="39.77" x2="50.08" y2="39.77" width="0.3048" layer="16"/>
+<wire x1="22.9832" y1="46.8868" x2="22.9832" y2="42.0681125" width="0.3048" layer="16"/>
+<wire x1="50.08" y1="39.77" x2="51.99" y2="41.68" width="0.3048" layer="16"/>
+<wire x1="51.99" y1="41.68" x2="51.99" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="19.59" y1="50.28" x2="22.9832" y2="46.8868" width="0.3048" layer="16"/>
 </signal>
 <signal name="PN1">
 <contactref element="TIVA2" pad="28"/>
 <contactref element="LCD" pad="15"/>
-<wire x1="91.44" y1="41.91" x2="116.87" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="24.29" y1="46.47" x2="24.31" y2="46.47" width="0.3048" layer="1"/>
+<wire x1="20.42" y1="60.22" x2="21.68" y2="58.96" width="0.3048" layer="1"/>
+<wire x1="21.68" y1="58.96" x2="21.68" y2="49.08" width="0.3048" layer="1"/>
+<wire x1="21.68" y1="49.08" x2="24.29" y2="46.47" width="0.3048" layer="1"/>
+<wire x1="24.31" y1="46.47" x2="25.18" y2="45.6" width="0.3048" layer="1"/>
+<wire x1="25.18" y1="45.6" x2="25.18" y2="41.56" width="0.3048" layer="1"/>
+<wire x1="25.18" y1="41.56" x2="26.98" y2="39.76" width="0.3048" layer="1"/>
+<wire x1="26.98" y1="39.76" x2="34.56" y2="39.76" width="0.3048" layer="1"/>
+<wire x1="34.56" y1="39.76" x2="36.75" y2="41.95" width="0.3048" layer="1"/>
+<wire x1="36.75" y1="41.95" x2="36.75" y2="42.51" width="0.3048" layer="1"/>
 </signal>
 <signal name="PM5">
 <contactref element="TIVA2" pad="29"/>
 <contactref element="LCD" pad="29"/>
-<wire x1="109.22" y1="41.91" x2="119.41" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="17.88" y1="57.68" x2="17.05" y2="56.85" width="0.3048" layer="16"/>
+<wire x1="17.05" y1="56.85" x2="17.05" y2="50.97" width="0.3048" layer="16"/>
+<wire x1="20.4432" y1="42.0681125" x2="23.2513125" y2="39.26" width="0.3048" layer="16"/>
+<wire x1="23.2513125" y1="39.26" x2="52.66" y2="39.26" width="0.3048" layer="16"/>
+<wire x1="20.4432" y1="47.5768" x2="20.4432" y2="42.0681125" width="0.3048" layer="16"/>
+<wire x1="52.66" y1="39.26" x2="54.53" y2="41.13" width="0.3048" layer="16"/>
+<wire x1="54.53" y1="41.13" x2="54.53" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="17.05" y1="50.97" x2="20.4432" y2="47.5768" width="0.3048" layer="16"/>
 </signal>
 <signal name="PN2">
 <contactref element="TIVA2" pad="30"/>
 <contactref element="LCD" pad="21"/>
-<wire x1="99.06" y1="41.91" x2="119.41" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="17.88" y1="60.22" x2="19" y2="59.1" width="0.3048" layer="1"/>
+<wire x1="22.70061875" y1="46.7928" x2="22.7272" y2="46.7928" width="0.3048" layer="1"/>
+<wire x1="22.7272" y1="46.7928" x2="22.89" y2="46.63" width="0.3048" layer="1"/>
+<wire x1="19" y1="50.49341875" x2="22.70061875" y2="46.7928" width="0.3048" layer="1"/>
+<wire x1="22.89" y1="46.63" x2="22.89" y2="41.77" width="0.3048" layer="1"/>
+<wire x1="22.89" y1="41.77" x2="25.51" y2="39.15" width="0.3048" layer="1"/>
+<wire x1="25.51" y1="39.15" x2="41.63" y2="39.15" width="0.3048" layer="1"/>
+<wire x1="41.63" y1="39.15" x2="44.37" y2="41.89" width="0.3048" layer="1"/>
+<wire x1="44.37" y1="41.89" x2="44.37" y2="42.51" width="0.3048" layer="1"/>
+<wire x1="19" y1="59.1" x2="19" y2="50.49341875" width="0.3048" layer="1"/>
 </signal>
 <signal name="PM4">
 <contactref element="TIVA2" pad="31"/>
 <contactref element="LCD" pad="31"/>
-<wire x1="111.76" y1="41.91" x2="121.95" y2="57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="15.34" y1="57.68" x2="14.51" y2="56.85" width="0.3048" layer="16"/>
+<wire x1="14.51" y1="56.85" x2="14.51" y2="50.77" width="0.3048" layer="16"/>
+<wire x1="17.9032" y1="42.0681125" x2="21.2413125" y2="38.73" width="0.3048" layer="16"/>
+<wire x1="17.9032" y1="47.3768" x2="17.9032" y2="42.0681125" width="0.3048" layer="16"/>
+<wire x1="57.07" y1="41.05" x2="57.07" y2="42.51" width="0.3048" layer="16"/>
+<wire x1="14.51" y1="50.77" x2="17.9032" y2="47.3768" width="0.3048" layer="16"/>
+<wire x1="54.75" y1="38.73" x2="57.07" y2="41.05" width="0.3048" layer="16"/>
+<wire x1="54.75" y1="38.73" x2="21.2413125" y2="38.73" width="0.3048" layer="16"/>
 </signal>
 <signal name="PN3">
 <contactref element="TIVA2" pad="32"/>
 <contactref element="LCD" pad="23"/>
-<wire x1="101.6" y1="41.91" x2="121.95" y2="59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="15.34" y1="60.22" x2="16.8132" y2="58.7468" width="0.3048" layer="1"/>
+<wire x1="16.8132" y1="58.7468" x2="16.8132" y2="52.0336375" width="0.3048" layer="1"/>
+<wire x1="16.8132" y1="52.0336375" x2="20.2" y2="48.6468375" width="0.3048" layer="1"/>
+<wire x1="24.0213125" y1="38.49" x2="43.31" y2="38.49" width="0.3048" layer="1"/>
+<wire x1="20.2" y1="42.3113125" x2="24.0213125" y2="38.49" width="0.3048" layer="1"/>
+<wire x1="43.31" y1="38.49" x2="46.91" y2="42.09" width="0.3048" layer="1"/>
+<wire x1="46.91" y1="42.09" x2="46.91" y2="42.51" width="0.3048" layer="1"/>
+<wire x1="20.2" y1="48.6468375" x2="20.2" y2="42.3113125" width="0.3048" layer="1"/>
 </signal>
 <signal name="TARGET_RESET">
 <contactref element="TIVA2" pad="33"/>
 </signal>
 <signal name="3V3">
 <contactref element="TIVA2" pad="37"/>
-<contactref element="TIVA1" pad="2"/>
-<wire x1="7.65" y1="59.77" x2="129.57" y2="57.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PQ4">
 <contactref element="TIVA2" pad="34"/>
@@ -1780,6 +2039,12 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$53">
 <contactref element="LCD" pad="40"/>
+</signal>
+<signal name="3V3_1">
+<contactref element="TIVA1" pad="2"/>
+</signal>
+<signal name="5V_1">
+<contactref element="TIVA1" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
